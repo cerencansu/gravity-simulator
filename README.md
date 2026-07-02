@@ -1,7 +1,5 @@
 # Gravity Simulator
 
-
-
 My first Python physics simulation project.
 
 ## Features
