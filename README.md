@@ -1,6 +1,6 @@
 # Gravity Simulator
 
-![Simulation Screenshot](screenshot.png)
+
 
 My first Python physics simulation project.
 
