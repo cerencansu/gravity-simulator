@@ -1,5 +1,7 @@
 # Gravity Simulator
 
+![Simulation Screenshot](screenshot.png)
+
 My first Python physics simulation project.
 
 ## Features
@@ -22,3 +24,12 @@ My first Python physics simulation project.
 
 - Space: Pause / Resume
 - R: Reset simulation
+
+## What I Learned
+
+- Python fundamentals
+- Pygame basics
+- Gravity simulation
+- Orbital mechanics
+- Object-Oriented Programming (OOP)
+- Git and GitHub
