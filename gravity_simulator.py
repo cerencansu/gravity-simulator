@@ -21,11 +21,6 @@ class Body:
         self.radius = radius
         self.color = color
 
-body_vx = 0
-body_vy = -2.7
-body_ax = 0
-body_ay = 0.05
-
 trail = []
 
 fonts = pygame.font.get_fonts()
@@ -84,7 +79,7 @@ while running:
 
         for point in trail:
             pygame.draw.circle(screen, (100, 100, 100), point, 1)
-        speed = (body_vy**2 + body_vx**2)**0.5
+        speed = (planet.vy**2 + planet.vx**2)**0.5
 
         text = font.render("Speed = " + str(speed), True, text_color)
         screen.blit(text, (10, 10))
